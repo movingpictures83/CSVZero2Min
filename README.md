@@ -2,7 +2,8 @@
 # Language: Python
 # Input: CSV (with zero entries)
 # Output: CSV (with zero entries mapped to minimum value, no rescaling)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.1, Python 3.6
+# Dependency: numpy==1.16.0
 
 PluMA plugin to change all zeroes in a CSV file to the minimum value in the same file.
 This can be useful particularly when the potential error for measurement is relatively high,
